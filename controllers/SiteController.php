@@ -122,4 +122,10 @@ class SiteController extends Controller
     {
         return $this->render('about');
     }
+
+    public function actionFirsttime() {
+        return $this->render('firsttime'
+            //,['message' => $message]
+        );
+    }
 }
